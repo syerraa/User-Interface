@@ -71,11 +71,19 @@ h1, h2, h3, h4, h5 {
 header nav{ 
 	display:inline-block;
 	margin-top: 35px;
+	position: fixed;
+    top: 0;
+    width: -11%;
 }
 header nav a {
-	margin:0 20px;
+	padding: 10px;
+    margin: 0 20px;
+    background-color: orange;
+    border-radius: 5px;
+	text-decoration: none;
+	font-family:railway;
 }
-header img.logo{margin-left:140px;
+header img.logo{margin-left: 700px;
 }
 .cta-text{ display: inline-block;
     margin-top: 10px;
@@ -83,8 +91,10 @@ header img.logo{margin-left:140px;
     margin: 150px;
     font-size: 45px;
 }
-section img{margin-top: 40px;
+section img{margin-top: 47px;
     margin-left: 20px;
+    /* margin-right: 5px; */
+    margin-bottom: -40px;
 }
 section button{ 
 	 border: 1px solid black;
@@ -107,8 +117,8 @@ section button{
 	width:98%;
 }
 .bottom-content{border-bottom:1px solid black;
-margin:1%;
-width:98%;
+	margin:1%;
+	width:98%;
 }
 .text-content1{ 
 	margin:1%;
