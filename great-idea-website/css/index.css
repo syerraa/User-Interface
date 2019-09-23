@@ -87,6 +87,9 @@ header nav a {
 }
 header img.logo{margin-left: 700px;
 }
+.cta{
+	margin-bottom:-70px;
+}
 .cta-text{ display: inline-block;
     margin-top: 10px;
     margin-left: 100px;
