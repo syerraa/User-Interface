@@ -78,10 +78,12 @@ header nav{
 header nav a {
 	padding: 10px;
     margin: 0 20px;
-    background-color: orange;
-    border-radius: 5px;
+    background-color:gray;
+	border-radius: 3px;
+	border: 1px solid black;
 	text-decoration: none;
 	font-family:railway;
+	color:white;
 }
 header img.logo{margin-left: 700px;
 }
@@ -89,11 +91,13 @@ header img.logo{margin-left: 700px;
     margin-top: 10px;
     margin-left: 100px;
     margin: 150px;
-    font-size: 45px;
+	font-size: 45px;
+
 }
-section img{margin-top: 47px;
+.cta-image{ display:inline-block;
+	margin-top: 47px; 
     margin-left: 20px;
-    /* margin-right: 5px; */
+    margin-right: 5px;
     margin-bottom: -40px;
 }
 section button{ 
